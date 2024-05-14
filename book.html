@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/js/bootstrap.min.js" />
+
+    <style>
+      .olcu {
+        padding: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-between p-2 bg-dark align-content-center"
+    >
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="">carousel</a></li>
+          <li class="nav-item"><a class="nav-link" href="">home</a></li>
+          <li class="nav-item"><a class="nav-link" href="">link</a></li>
+          <li class="nav-item"><a class="nav-link" href="">disbled</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <label for=""><input type="text" placeholder="search" /></label>
+        <button>send</button>
+      </div>
+    </div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUPEhIVFRUVFRUVFRUXFxcXFxUVFRUWFhUVFxcYHSggGBolHRUVITEhJSktLi4uFx8zODMtNygtLisBCgoKDQ0NGg8HDisZHxkrKys3KysrKysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQYC/8QAHRABAQEBAAEFAAAAAAAAAAAAABEB8CECMVGR0f/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6ApgAAAAAAAC4mCggAAAAAGAAAAAAAAAAAAAAF7wAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAgaAAAAAAAAAAAAAAAAoIEAAAAAAAAAAAAAAAAAAAAAAAO7yYAAAAAAAAIChQAAAAAAAAAAACAAaAAAAARNXAAAAAIAAAAAAACKAAAAAGAAAAAAAAAAAAEAAAAAAAAAAgAAAFAAAAAAAAAAAAO9gAAAO+QAWpQA0AIEAAAAAAAAAAAqiXvIAAAAAQAAAAAAAA7qAAAHdgABAAAAAAgAAAAAAAAABAAAMAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAACoAEAAAAAAAAAAAA0AAAAAAAAAAADAAFTdAAAAoABoAAAGgBiZoKOd1dBYAABoAelQQDAApe+gKIuACpn6AAAGgCoYD/2Q==" alt="Los Angeles" class="d-block" style="height:600px; width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ0PDw8PDw8NDQ0NDQ8PDw8PDw8NFREWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGBABAQEBAQAAAAAAAAAAAAAAABEB8EH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7DjSYoAKCKKAEWAEWKDMWLFgMxYsAQjQDMI0AzCNAMwikBIjUIDKRqEBmI1EBBUBBQEZaAYFigAoAKAsMUCKKBAUAFBBQEUAEUBFABFAQUBkUBmCgMxGkgMioCCgJ3oAAKAuCgKKAoACgAAAAAAAAAAAAAAAAIKgIjSAyjSaDIqAd6ixAXAXAVUxQVUUBQAAAAAAAAAAAVAAAAAAAAAEFQERpNBlF1AQAEzGkawFxcRQUAFAAAAAAAAAAAAVAAAAAAAAABAARUBE1UBAQDGsZxrAVUxQUAFAAAAAAAAAAAAAAAAAAAAAARUARUBNTWtZ0ERUAaZxrAVUUFABRFAAAAAAAAAAAAAAAAAAAAARUARUBE1UBICAYuMtYDSs4oKqKAqKAAAAAAAAAAAAAAAAAAACAAgKyqaAyqaAggC4yoNYuM4uaDSs40CiKAqAKIAoigAAAAAAAAAACAAICoIAhqaBqACAAyrKg0tZqg1isNZoNKzVBRFBRAFEUAAAAAAAAAEBUoACICpRN0BEpQEABWb0ATBnNazQUQBpayoNZq1mgN0Zq0Gis0oNVWSg1RKgNCUoKIUFKzSg0lSlBalSpQaqVKgLUqAFKIACaBRKgM5rVAFUAFAAqgBVACgClABagC0qALUoAUoAUqAFKAJoAJQAQACs7oAl6oAP/9k=" alt="Chicago" class="d-block" style="
+         height:600px;   width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWloJ1YcPFBAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC" alt="New York" class="d-block" style="height: 600px; width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <!-- <div class="container-fluid mt-3">
+    <h3>Carousel Example</h3>
+    <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+  </div> -->
+
+
+
+
+    <div class="row p-5">
+      <div class="col text-center">
+        <img
+          width="100px"
+          height="100px"
+          class="rounded-circle border-r"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUPEhIVFRUVFRUVFRUXFxcXFxUVFRUWFhUVFxcYHSggGBolHRUVITEhJSktLi4uFx8zODMtNygtLisBCgoKDQ0NGg8HDisZHxkrKys3KysrKysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQYC/8QAHRABAQEBAAEFAAAAAAAAAAAAABEB8CECMVGR0f/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6ApgAAAAAAAC4mCggAAAAAGAAAAAAAAAAAAAAF7wAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAgaAAAAAAAAAAAAAAAAoIEAAAAAAAAAAAAAAAAAAAAAAAO7yYAAAAAAAAIChQAAAAAAAAAAACAAaAAAAARNXAAAAAIAAAAAAACKAAAAAGAAAAAAAAAAAAEAAAAAAAAAAgAAAFAAAAAAAAAAAAO9gAAAO+QAWpQA0AIEAAAAAAAAAAAqiXvIAAAAAQAAAAAAAA7qAAAHdgABAAAAAAgAAAAAAAAABAAAMAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAACoAEAAAAAAAAAAAA0AAAAAAAAAAADAAFTdAAAAoABoAAAGgBiZoKOd1dBYAABoAelQQDAApe+gKIuACpn6AAAGgCoYD/2Q=="
+          alt=""
+        />
+        <h1>Heading</h1>
+        <p>
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
+          risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+          cursus magna.
+        </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+      <div class="col text-center">
+        <img
+          width="100px"
+          height="100px"
+          class="rounded-circle border-r"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUPEhIVFRUVFRUVFRUXFxcXFxUVFRUWFhUVFxcYHSggGBolHRUVITEhJSktLi4uFx8zODMtNygtLisBCgoKDQ0NGg8HDisZHxkrKys3KysrKysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQYC/8QAHRABAQEBAAEFAAAAAAAAAAAAABEB8CECMVGR0f/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6ApgAAAAAAAC4mCggAAAAAGAAAAAAAAAAAAAAF7wAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAgaAAAAAAAAAAAAAAAAoIEAAAAAAAAAAAAAAAAAAAAAAAO7yYAAAAAAAAIChQAAAAAAAAAAACAAaAAAAARNXAAAAAIAAAAAAACKAAAAAGAAAAAAAAAAAAEAAAAAAAAAAgAAAFAAAAAAAAAAAAO9gAAAO+QAWpQA0AIEAAAAAAAAAAAqiXvIAAAAAQAAAAAAAA7qAAAHdgABAAAAAAgAAAAAAAAABAAAMAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAACoAEAAAAAAAAAAAA0AAAAAAAAAAADAAFTdAAAAoABoAAAGgBiZoKOd1dBYAABoAelQQDAApe+gKIuACpn6AAAGgCoYD/2Q=="
+          alt=""
+        />
+        <h1>Heading</h1>
+        <p>
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
+          fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+          condimentum nibh.
+        </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+      <div class="col text-center">
+        <img
+          width="100px"
+          height="100px"
+          class="rounded-circle border-r"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUPEhIVFRUVFRUVFRUXFxcXFxUVFRUWFhUVFxcYHSggGBolHRUVITEhJSktLi4uFx8zODMtNygtLisBCgoKDQ0NGg8HDisZHxkrKys3KysrKysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQYC/8QAHRABAQEBAAEFAAAAAAAAAAAAABEB8CECMVGR0f/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM6ApgAAAAAAAC4mCggAAAAAGAAAAAAAAAAAAAAF7wAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAgaAAAAAAAAAAAAAAAAoIEAAAAAAAAAAAAAAAAAAAAAAAO7yYAAAAAAAAIChQAAAAAAAAAAACAAaAAAAARNXAAAAAIAAAAAAACKAAAAAGAAAAAAAAAAAAEAAAAAAAAAAgAAAFAAAAAAAAAAAAO9gAAAO+QAWpQA0AIEAAAAAAAAAAAqiXvIAAAAAQAAAAAAAA7qAAAHdgABAAAAAAgAAAAAAAAABAAAMAAAAAAAAAAAAAANADAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAACoAEAAAAAAAAAAAA0AAAAAAAAAAADAAFTdAAAAoABoAAAGgBiZoKOd1dBYAABoAelQQDAApe+gKIuACpn6AAAGgCoYD/2Q=="
+          alt=""
+        />
+        <h1>Heading</h1>
+        <p>
+          Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
+          eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+          fermentum massa justo sit amet risus.
+        </p>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    </div>
+    <hr />
+    <div class="d-flex">
+      <div class="olcu">
+        <h1>First featurette heading. It'll blow your mind.</h1>
+        <p>
+          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+          ligula porta felis euismod semper. Praesent commodo cursus magna, vel
+          scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+      </div>
+      <div class="p-5">
+        <img
+          width="400px"
+          height="400px"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ8PDw8PFRUPDw8PDw8VFRUPFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhABAQACAwAAAAAAAAAAAAAAAAHR8BExkf/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOKAoyAAAAAAAAIAAAAAAAAACACoAAAAAAgDYAAAAAAIAAAAAAAAAAACAAAAAAAIqAogDYAAAAICoAAAAAAAAACAAAAAAAAIAqAAADYICoAKgAAAAAIAKAACAAAAAAAAAgAAAAANAAAAAAAAIoCAAoigIAAAAAIKgCoAAAAAAA0AAAAAAAACAAAAAAAAAAgAAAAAAAACKgNgAAAAAAAgAAAAAAAAIAAAAAAAACAAAA2AACAqKgAAAAAAAACKAgAAAAAAICoAAAG9hyA2CAqAAAAAAAAAACAqAAAAAAgAAAAAAAeAgNgAAAAAAAgqAAAAAqAAAACAAAAAAAAgKgA2AAAAAAIAAAAAAAAACAAAAigAAgAKgAqADYAAAAIAAAAAAACAqAAAACAAAAAAAAAAA2AAAAIAAAIoAgAAAAAAAIqAAAAAAAAAioA6AAIoCAAAAAgKgAAAAAAAIAAAAAAAAICiKDZQBKtQAAAEAAAAAAAAASAAKgCoABAAMAAAAAD/2Q=="
+          alt=""
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="d-flex">
+      --
+      <div class="p-5">
+        <img
+          width="400px"
+          height="400px"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ8PDw8PFRUPDw8PDw8VFRUPFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhABAQACAwAAAAAAAAAAAAAAAAHR8BExkf/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOKAoyAAAAAAAAIAAAAAAAAACACoAAAAAAgDYAAAAAAIAAAAAAAAAAACAAAAAAAIqAogDYAAAAICoAAAAAAAAACAAAAAAAAIAqAAADYICoAKgAAAAAIAKAACAAAAAAAAAgAAAAANAAAAAAAAIoCAAoigIAAAAAIKgCoAAAAAAA0AAAAAAAACAAAAAAAAAAgAAAAAAAACKgNgAAAAAAAgAAAAAAAAIAAAAAAAACAAAA2AACAqKgAAAAAAAACKAgAAAAAAICoAAAG9hyA2CAqAAAAAAAAAACAqAAAAAAgAAAAAAAeAgNgAAAAAAAgqAAAAAqAAAACAAAAAAAAgKgA2AAAAAAIAAAAAAAAACAAAAigAAgAKgAqADYAAAAIAAAAAAACAqAAAACAAAAAAAAAAA2AAAAIAAAIoAgAAAAAAAIqAAAAAAAAAioA6AAIoCAAAAAgKgAAAAAAAIAAAAAAAAICiKDZQBKtQAAAEAAAAAAAAASAAKgCoABAAMAAAAAD/2Q=="
+          alt=""
+        />
+      </div>
+      <div class="olcu">
+        <h1>First featurette heading. It'll blow your mind.</h1>
+        <p>
+          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+          ligula porta felis euismod semper. Praesent commodo cursus magna, vel
+          scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="d-flex">
+      <div class="olcu">
+        <h1>First featurette heading. It'll blow your mind.</h1>
+        <p>
+          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+          ligula porta felis euismod semper. Praesent commodo cursus magna, vel
+          scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+      </div>
+      <div class="p-5">
+        <img
+          width="400px"
+          height="400px"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ8PDw8PFRUPDw8PDw8VFRUPFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhABAQACAwAAAAAAAAAAAAAAAAHR8BExkf/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOKAoyAAAAAAAAIAAAAAAAAACACoAAAAAAgDYAAAAAAIAAAAAAAAAAACAAAAAAAIqAogDYAAAAICoAAAAAAAAACAAAAAAAAIAqAAADYICoAKgAAAAAIAKAACAAAAAAAAAgAAAAANAAAAAAAAIoCAAoigIAAAAAIKgCoAAAAAAA0AAAAAAAACAAAAAAAAAAgAAAAAAAACKgNgAAAAAAAgAAAAAAAAIAAAAAAAACAAAA2AACAqKgAAAAAAAACKAgAAAAAAICoAAAG9hyA2CAqAAAAAAAAAACAqAAAAAAgAAAAAAAeAgNgAAAAAAAgqAAAAAqAAAACAAAAAAAAgKgA2AAAAAAIAAAAAAAAACAAAAigAAgAKgAqADYAAAAIAAAAAAACAqAAAACAAAAAAAAAAA2AAAAIAAAIoAgAAAAAAAIqAAAAAAAAAioA6AAIoCAAAAAgKgAAAAAAAIAAAAAAAAICiKDZQBKtQAAAEAAAAAAAAASAAKgCoABAAMAAAAAD/2Q=="
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>

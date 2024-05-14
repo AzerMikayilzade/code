@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  padding: 0px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.xet {
+  color: white;
+  text-decoration: none;
+}
+/* nav panel baslangic */
+nav,
+ul {
+  display: flex;
+}
+nav {
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul,
+li {
+  list-style-type: none;
+  padding: 15px 25px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.logo {
+  color: blue;
+  padding-left: 25px;
+  font-size: 25px;
+}
+.home {
+  color: blue;
+}
+/* nav panel bitis */
+.contenr {
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+}
+.sahe {
+  margin: 0px 200px;
+}
+
+/* birinci hise baslangic */
+.birinci-hise {
+  width: 40%;
+  height: auto;
+  padding-top: 200px;
+}
+.birinci-hise h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 25px;
+  color: white;
+  border-color: transparent;
+}
+.ana-hise {
+  display: flex;
+  gap: 200px;
+}
+.imeg img {
+  width: 100%;
+  height: 650px;
+}
+/* birinci hise son */
+
+/* ikinci hise baslangic*/
+.ikinci-hise {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 200px;
+  position: relative;
+  bottom: 70px;
+}
+.box {
+  width: 500px;
+  height: 300px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.activ {
+  background-color: orangered;
+}
+.box i,
+h2 {
+  font-size: 35px;
+}
+.ucunc-hise {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+.resim {
+  padding-top: 400px;
+}
+.resim img {
+  width: 100%;
+  height: 500px;
+}
+.hise3 {
+  width: 50%;
+  height: auto;
+  padding-top: 550px;
+}
+.reng2 {
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.qe{
+    text-align: center;
+    margin: 80px 0px;
+font-size: 35px;
+}
+.clas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.raz{
+    border: 2px solid transparent;
+margin: 30px 15px;
+text-align: center;
+padding: 80px 0px;
+font-size: 20px;
+background-color: white;
+box-shadow: 5px 5px 5px 5px gray;
+}
+.hovr:hover{
+    background-color: orangered;
+}
+.centr{
+  
+    text-align: center;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: green;
+    color: red;
+} 
+.az1{
+    font-size: 23px;
+    text-align: center;
+    padding: 60px;
+}
+.sekil img{
+    border: 1px solid red;
+    border-radius: 100%;
+}
+.sekil{
+border: 1px solid transparent;
+width: 40%;
+position: relative;
+padding: 30px;
+margin-bottom: 100px;
+background-color: white;
+box-shadow: 5px 5px 7px 5px gray ;
+}
+.sekil span{
+position: absolute;
+top: 55px;
+padding: 0px 10px;
+}
+.esas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sag-sol {
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+ 
+}
+.sag-sol i{
+    margin: 15px;
+}
+.sag-sol i:hover{
+    background-color: blue;
+}
+.form label input , .lebb{
+   
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px 8px gray;
+    border-color: transparent;
+}
+.form{
+    margin-left: 150px;
+    margin-bottom: 200px;
+
+}
+.form label textarea{
+    width: 500px;
+    height: 120px;
+    box-shadow: 5px 5px 5px 8px gray;
+    border-color: transparent;
+
+}
+.asd{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .contenr{
+    padding: 0px 200px;
+} */
+.header input{
+padding: 13px;
+width:350px;
+border-radius: 20px;
+border-color: orangered;
+text-align: center;
+}

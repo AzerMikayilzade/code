@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/26/16/39/core-2542290_1280.jpg");
+  background-size: cover;
+}
+p{
+    font-size:20px ;
+}
+
+.menu {
+  margin: 30px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  background-color: burlywood;
+  padding: 20px;
+}
+hr {
+  background-color: brown;
+  border-color: brown;
+}
+.ad {
+  text-align: center;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  ;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item  {
+  display: flex;
+  justify-content: space-between;
+padding: 5px;
+}
+
+.j {
+  text-align: center;
+  padding: 15px;
+}
+.qw{
+    text-align: center;
+}
+a:hover{
+    color: red;
+}
